@@ -10,20 +10,22 @@ Use Case
 
 Before
 ------
-``
-<title>{% block site_title %}{{ title }} of this page{% endblock %}</title>
 
-<h1>{% block site_title_2 %}{{ title }} of this page{% endblock %}</h1>
-``
+::
+        <title>{% block site_title %}{{ title }} of this page{% endblock %}</title>
+
+        <h1>{% block site_title_2 %}{{ title }} of this page{% endblock %}</h1>
+
 
 After
 -----
-``
-{% load repeatblock %}
-<title>{% block site_title %}{{ title }} of this page{% endblock %}</title>
 
-<h1>{% repeatblock site_title %}</h1>
-``
+::
+        {% load repeatblock %}
+        <title>{% block site_title %}{{ title }} of this page{% endblock %}</title>
+
+        <h1>{% repeatblock site_title %}</h1>
+
 
 Installation
 ============
