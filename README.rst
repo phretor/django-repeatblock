@@ -29,7 +29,7 @@ You can repeat the block you need::
 
 Installation
 ============
-1. ``pip install -e pip install -e 'git+https://github.com/phretor/django-repeatblock.git#egg=django-repeatblock'``
+1. ``pip install -e 'git+https://github.com/phretor/django-repeatblock.git#egg=django-repeatblock'``
 2. Add ``'repeatblock'`` to your ``INSTALLED_APPS`` setting.
 
 Docs
