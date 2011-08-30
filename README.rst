@@ -10,8 +10,8 @@ Use Case
 
 Before
 ------
+You need to repeat a block, but you cannot::
 
-::
         <title>{% block site_title %}{{ title }} of this page{% endblock %}</title>
 
         <h1>{% block site_title_2 %}{{ title }} of this page{% endblock %}</h1>
@@ -19,8 +19,8 @@ Before
 
 After
 -----
+You can repeat the block you need::
 
-::
         {% load repeatblock %}
         <title>{% block site_title %}{{ title }} of this page{% endblock %}</title>
 
